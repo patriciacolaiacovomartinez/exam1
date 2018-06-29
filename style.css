@@ -1,0 +1,20 @@
+.cont{
+    background-color: black;
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  .box{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: orange;
+    display: flex;
+    flex-grow: 3;
+  }
